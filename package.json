@@ -1,0 +1,11 @@
+{
+  "name": "naturals",
+  "description": "Natural number generator",
+  "keywords": ["nats", "naturals", "generator"],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/naturals.git"
+  },
+  "main": "index.js"
+}
