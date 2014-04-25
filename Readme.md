@@ -12,6 +12,8 @@
 ## Example
 
 ```js
+'use strict';
+
 let nats = require('naturals');
 let take = require('take-generator');
 
