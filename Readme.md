@@ -17,16 +17,16 @@
 let nats = require('naturals');
 let take = require('take-generator');
 
-let thousand = take(nats(1), 1000);
+let thousand = take(nats, 1000);
 
-for (let nat of thousand) {
+for (let nat of thousand()) {
   console.log(nat);
 }
 
+// 0
 // 1
-// 2
 // ...
-// 1000
+// 999
 ```
 
 ## API
