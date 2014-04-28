@@ -1,4 +1,3 @@
-
 # naturals
 
   Natural number generator
@@ -15,11 +14,11 @@
 'use strict';
 
 let nats = require('naturals');
-let take = require('take-generator');
+let take = require('take-iterator');
 
-let thousand = take(nats, 1000);
+let thousand = take(nats(), 1000);
 
-for (let nat of thousand()) {
+for (let nat of thousand) {
   console.log(nat);
 }
 
